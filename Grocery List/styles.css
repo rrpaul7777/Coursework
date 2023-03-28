@@ -1,0 +1,27 @@
+h1 {
+    color: navy;
+    text-align: center;
+}
+#box1 {
+    width: 600px;
+    background-color: beige;
+    margin: 5px;
+    padding: 5px;
+    border-style: solid ;
+    border-color: black;
+    border-width: 1pt;
+}
+#box2 {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    margin: 5px;
+    padding: 5px;
+    border-style: solid ;
+    border-color: black;
+    border-width: 1pt;
+    display: inline-block;
+    vertical-align: top;
+}
+
+ 
