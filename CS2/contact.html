@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- styles for all pages -->
+        <link rel="stylesheet" href="site.css">
+        <!-- styles for this page -->
+        <link rel="stylesheet" href="contact.css">
+        <script type="text/javascript" src="myfile.js" ></script>
+  </head>
+  <body>
+    <header>
+      <span class="name">Rich Paul</span>
+      <nav class="links">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a class="active" href="contact.html">CONTACT</a>
+      </nav>
+    </header>
+    <main>
+      <br/>
+      <h1>Contact Form</h1>
+        <br/>
+        <div class="container">
+          <form action="/action_page.php">
+            <ul class="wrapper">
+              <li class="form-row">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              </li>
+            </ul> 
+            <ul class="wrapper">
+              <li class="form-row">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              </li>
+            </ul>
+            <ul class="wrapper">
+              <li class="form-row">
+                <label for="country">Country</label>  
+                <select id="country" name="country">
+                  <option value="usa">USA</option>
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                </select>
+              </li>
+            </ul>
+            <ul class="wrapper">
+              <li class="form-row">
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              </li>
+            </ul>
+            <input type="submit" value="Submit">
+          </form>
+        </div>            
+    </main>
+    <footer>
+      
+    </footer>
+</body></html>
